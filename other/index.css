@@ -37,7 +37,7 @@ html::-webkit-scrollbar {
     position: absolute;
     top: 0px;
     /* left: 200px; */
-    min-height: 100vh;
+    min-height: 130%;
     min-width: 100%;
     background-image: url("../images/pattern.png");
     opacity: 25%;
@@ -60,6 +60,32 @@ html::-webkit-scrollbar {
     height: 500px;
 }
 
+
+
+.socials-group {
+    position: fixed;
+    bottom: 0px;
+    left: 80px;
+
+    display: flex;
+    flex-direction: column;
+    max-width: 32px;
+    height: 315px;
+
+}
+
+.socials-group img {
+    padding-bottom: 23px;
+    max-width: 32px;
+}
+
+#vertical-line {
+    height: 150px;
+    width: 0px;
+    margin: auto;
+    border: 1px solid aliceblue;
+}
+
 @media only screen and (max-width: 600px) {
 
     /*Big smartphones [426px -> 600px]*/
@@ -69,27 +95,31 @@ html::-webkit-scrollbar {
         left: -750px;
         top: -200px;
     }
-}
 
-.socials-group {
-    position: fixed;
-    bottom: 0px;
-    left: 80px;
+    .socials-group {
+        top: -85px;
+        transform: rotate(90deg);
 
-    display: flex;
-    flex-direction: column;
-    width: 32px;
-    height: 315px;
+    }
 
-}
+    .socials-group img {
+        /* top: 30px; */
+        transform: rotate(270deg);
+        max-width: 32px;
+        max-height: 32px;
 
-.socials-group img {
-    padding-bottom: 23px;
-}
+    }
 
-#vertical-line {
-    height: 150px;
-    width: 0px;
-    margin: auto;
-    border: 1px solid aliceblue;
+    #vertical-line {
+        margin: 4px;
+    }
+
+    .thumbnail p {
+        width: 300px;
+        height: 70px;
+        left: 80px;
+        font-size: 25px;
+        top: -775px;
+    }
+
 }
