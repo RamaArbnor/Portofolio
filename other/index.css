@@ -63,7 +63,7 @@ html::-webkit-scrollbar {
 }
 
 .main {
-    height: 500px;
+    /* height: 500px; */
 }
 
 .socials-group {
@@ -90,6 +90,22 @@ html::-webkit-scrollbar {
     border: 1px solid aliceblue;
 }
 
+.panel {
+    background-color: #ffffff;
+    height: 600px;
+    width: 100%;
+    margin: 0px;
+
+    display: flex;
+    direction: row;
+    justify-content: center;
+
+}
+
+.panel img {
+    width: 65%; align-self:center;
+}
+
 @media only screen and (min-width:600px){
     .thumbnail-main {
         margin: 0;
@@ -110,7 +126,7 @@ html::-webkit-scrollbar {
 
 @media only screen and (max-width: 600px) {
 
-    /*Big smartphones [426px -> 600px]*/
+    /*Big smartphones [426px -> 600px] how it looks on phone*/
     .thumbnail-main {
         position: relative;
         top: 25vh;
@@ -148,3 +164,4 @@ html::-webkit-scrollbar {
     }
 
 }
+
