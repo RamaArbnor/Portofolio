@@ -127,6 +127,10 @@ html::-webkit-scrollbar {
     font-size: 1.2rem;
 }
 
+#webText, #chat, #cartoons {
+    width: 800px; 
+}
+
 @media only screen and (min-width:600px){
     .thumbnail-main {
         margin: 0;
