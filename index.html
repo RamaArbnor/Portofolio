@@ -1,92 +1,213 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Arbnor Rama's personal website"
+    />
+    <meta
+      name="keywords"
+      content="Arbnor Rama, Full Stack Developer, Web Developer, Software Developer"
+    />
+    <meta name="author" content="Arbnor Rama" />
+    <meta name="robots" content="index, follow" />
+    <meta name="revisit-after" content="3 month" />
+    <meta name="language" content="English" />
+    <meta name="distribution" content="global" />
+    <meta name="rating" content="general" />
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <title>Arbnor Rama</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="other/index.css">
-    <link rel="shortcut icon" href="images/logo.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-</head>
 
-<body>
 
-    <script src="" async defer></script>
-</body>
 
-    <div class="thumbnail">
-        <!-- <img src="images/bg2.gif" /> -->
-        <div class="thumbnail-main">
-            <!-- <img src="images/bg2.gif" /> -->
-            <p>Hi, I am <span>Arbnor Rama   </span>.
-                <br>I am a Web Developer</p>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#technologies">TECHNOLOGIES</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#contacts">CONTACT</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="main-container" id="home">
+        <img src="images/pfp.jpg" alt="profile picture" />
+        <h1>Hi, I'm Arbnor!</h1>
+        <p>
+          I'm a Full Stack developer with a passion for creating software that can help people in their daily lives. I have experience in developing web applications, desktop applications, and google extensions. I am always looking for new challenges and opportunities to learn and grow. I have a special likeing towards creating graphic designs and simulations using Processing and P5.js.
+        </p>
+      </div>
+      <br id="technologies">
+      <br>
+      <br>
+      <br>
+      <h2 >Technologies</h2>
+      <div class="technologies" >
+        <div class="tech">
+          <img src="svg/html-5.svg" alt="HTML" />
         </div>
-        <div class="pattern"></div>
+
+        <div class="tech">
+          <img src="svg/react-svgrepo-com.svg" alt="CSS" />
+        </div>
+
+        <div class="tech">
+          <img src="svg/js-svgrepo-com.svg" alt="JS" />
+        </div>
+
+        <div class="tech">
+          <img src="svg/nodejs-logo-svgrepo-com.svg" alt="Node.js" />
+        </div>
+
+        <div class="tech">
+          <img src="svg/github-color-svgrepo-com.svg" alt="Node.js" />
+        </div>
         
-
-    </div>
-
-    <div class="socials-group">
-        <a href="mailto: arama@york.citycollege.eu" target="_blank"><img src="images/gmail.png" id="gmail"/></a>
-        <a href="https://www.linkedin.com/in/arbnor-rama-20243b1b9/" target="_blank"><img src="images/linkedin.png"/></a>
-        <a href="https://github.com/RamaArbnor" target="_blank"><img src="images/github.png" /></a>
-
-        <div id="vertical-line"></div>
-    </div>
-
-    <div class="main" style="font-size: 75px;">
-        <div class="panel">
-            <div class="panel-section ">
-                <h1>Cartoons</h1>
-                <p id="cartoons">This is a project completly done in pure html5, css and js, I created 
-                    it working with a group of friends as a final project on our web class in univerist.
-                    I was charged as the leader of the group and done mainly work on the home page. 
-                    The project can be found on my github under 'I2WT-Project'.
-                </p>
-            </div>
-            <div class="panel-section ">
-                <img src="images/cartoons.gif">
-                
-            </div>
+        <div class="tech">
+          <img src="svg/java-4-logo-svgrepo-com.svg" alt="Node.js" />
         </div>
-        <div class="panel" style="background-color: #F6F6F6;">
-            <div class="panel-section">
-                <img src="images/colage.png">
-            </div>
-            <div class="panel-section">
-                <h1>Web applications</h1>
-                <p id="webText">
-                    Web applications are apps based on the web you can access them on the 
-                    internet from different devices home, pc, mobile, bussiness etc...
-                    This is a webApp I created to manage the spendings between me and 
-                    my rommates, it is fully cloud based, everything is stored and calculated 
-                    on the cloud, the best thing is we have access from anywhere we want.
-                    <br><br> created this project with react on the fron-end, node with express 
-                    for backend and mongoDb for database. This project can be found on
-                    my github unde 'mm-incCliend' and 'mm-incServer'.
-                </p>
-            </div>
-        </div>
-        <div class="panel">
-            <div class="panel-section">
-                <h1>Web Chat</h1>
-                <p id="chat">
-                    Here is my web-chat application I created as an exercise project to learn more on "WebSocket" protocol, 
-                    this is a web based application that can be accessed all around the world. It makes use of react on the 
-                    frontend and nodejs with express and socket.io on the backend.
 
-                    <br><br>This project can be found on my github under 'Chat-WebApp'.
-                </p>
-            </div>
-            <div class="panel-section">
-                <img src="images/Chat.png">
-            </div>
+        <div class="tech">
+          <img src="svg/sql-database-generic-svgrepo-com.svg" alt="Node.js" />
         </div>
-    </div>
 
+        <div class="tech">
+          <img src="svg/mongodb-logo-svgrepo-com.svg" alt="Node.js" />
+        </div>
+
+        <div class="tech">
+          <img src="svg/Processing_2021_logo.svg" alt="Node.js" />
+        </div>
+
+        <div class="tech">
+          <img src="svg/P5js_Logo.svg" alt="Node.js" />
+        </div>
+      </div>
+      <br id="projects">
+      <br>
+      <br>
+      <br>
+      <h2  >Projects</h2>
+      <div class="projects" >
+        
+        <div class="project">
+          <div class="project-content">
+            <h3>Particle Life: An Artificial Life System</h3>
+            <p>
+              Particle Life is a final year bachelor project that explores the dynamics of artificial life through a force-based system with incorporated evolutionary mechanisms. Developed using Processing, this project delves into simulating emergent behaviors akin to life forms within a digital environment.
+            </p>
+            <div class="project-icons">
+              <a class="project-icon" href="https://github.com/RamaArbnor/ParticleLife" target="_blank"><img src="svg/github-color-svgrepo-com.svg"></a>
+            </div>
+          </div>
+
+          <img src="images/particleLife.png" alt="Project 1" />
+        </div>
+
+        <div class="project inverse">
+          <div class="project-content">
+            <h3>Merre Librin</h3>
+            <p>
+              MerreLibrin, is a platform I developed to help people to donate school books to people that need them.
+            </p>
+            <div class="project-icons">
+              <a class="project-icon" href="https://github.com/RamaArbnor/MerreLibrin" target="_blank"><img src="svg/github-color-svgrepo-com.svg"></a>
+              <a class="project-icon" href="https://merre-librin.vercel.app/" target="_blank"><img src="svg/link-square-svgrepo-com.svg"></a>
+  
+            </div>
+          </div>
+
+          <img src="images/merreLibrin.png" alt="Project 1" />
+        </div>
+
+        <div class="project">
+          <div class="project-content">
+            <h3>Store POS</h3>
+            <p>
+              This is a desktop application made to be used locally for grocery stores, this app helps on calculating the amount for each sale records all the sales, helps keep the store stocked where the manager can easily see and edit any product in the store.
+
+ I made this application using electron and it uses sqlite for the database.
+If you need such an application or know someone who does or similar apps feel free to message me.
+            </p>
+            <div class="project-icons">
+              <!-- <a class="project-icon" href="https://github.com/RamaArbnor/ParticleLife" target="_blank"><img src="svg/github-color-svgrepo-com.svg"></a> -->
+            </div>
+          </div>
+
+          <img src="images/storePos.jpg" alt="Project 1" />
+        </div>
+
+        <div class="project inverse">
+          <div class="project-content">
+            <h3>Symbo Search</h3>
+            <p>
+              A google extension that integrates openai into every single google search you do, instead of being the google killer maybe OpenAi can live symbiotically with google search.
+
+              I created this google extension to help people who want to get some quick answers on specific topic especially helping with code snippets, even though it works with any kind of query that OpenAi can answer since the answer come directly from it.
+            </p>
+            <div class="project-icons">
+              <a class="project-icon" href="https://github.com/RamaArbnor/GoogleExtension" target="_blank"><img src="svg/github-color-svgrepo-com.svg"></a>  
+            </div>
+            
+          </div>
+          <img src="images/symboSearch.jpg" alt="Project 1" />
+        </div>
+
+        <div class="project">
+          <div class="project-content">
+            <h3>Restaurant App</h3>
+            <p>
+              This is a web-app that helps small or big gastronomy businesses on offering a faster customer service since it helps the staff on digitally record different orders, making use of this app businesses could record their sales and prepare better for their future ones.
+
+If any business owner sees this I am more than happy to work together!
+            </p>
+            <div class="project-icons">
+              <a class="project-icon" href="https://github.com/RamaArbnor/Restaurant-WebApp" target="_blank"><img src="svg/github-color-svgrepo-com.svg"></a>
+            </div>
+          </div>
+
+          <img src="images/coffe.jpg" alt="Project 1" />
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+ 
+      </div>
+      <br id="contacts">
+      <br>
+      <br>
+      <br>
+      <h2  >Contacts</h2>
+      <div class="contacts" id="contacts">
+        <a class="project-icon" href="https://github.com/RamaArbnor/" target="_blank"><img src="svg/github-color-svgrepo-com.svg"></a>
+        <a class="project-icon" href="mailto: arbnor.rama.ar@gmail.com" target="_blank"><img src="svg/gmail.svg"></a>
+        <a class="project-icon" href="https://www.linkedin.com/in/arbnorrama/" target="_blank"><img src="svg/linkedin-svgrepo-com.svg"></a>
+      </div>
+      <!-- <footer>
+        <p>&copy; 2021 Arbnor</p>
+      </footer> -->
+    </main>
+
+    <script src="./astroScripts/sketch.js"></script>
+    <script src="./astroScripts/node.js"></script>
+    <script src="./astroScripts/astro.js"></script>
+  </body>
 </html>
